@@ -171,6 +171,3 @@ class GUI:
 
     def close(self):
         self.db.terminate()
-
-gui = GUI()
-gui.close()
